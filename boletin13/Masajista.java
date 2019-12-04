@@ -30,9 +30,13 @@ public class Masajista extends Equipo{
     }
     
     public void darmasaje(){
-        
+    System.out.println("Dando masaje");    
     }
-
+    
+    public void viajar(){
+        System.out.println("viaxan os masajistas");
+    }
+    
     @Override
     public String toString() {
         return super.toString()+ "Masajista{" + "titulacion=" + titulacion + ", anosExperiencia=" + anosExperiencia + '}';

@@ -20,12 +20,17 @@ public class Entrenador extends Equipo {
     }
    
     public void dirigirpartido(){
-        
+    System.out.println("Dirigiendo el partido");    
     }
+    
     public void dirigirentrenar(){
-        
+    System.out.println("Dirigiendo el entrenamiento");    
     }
-
+    
+    public void viajar(){
+        System.out.println("viaxan el entrenador");
+    }
+    
     @Override
     public String toString() {
         return super.toString()+ "Entrenador{" + "idFederacion=" + idFederacion + '}';

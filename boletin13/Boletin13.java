@@ -7,6 +7,12 @@ public class Boletin13 {
         obx.toString();
         obx.concertrarse();
         obx.viajar();
+        Equipo xog = new Xogador();
+        xog.viajar();
+        Equipo ent = new Entrenador();
+        xog.viajar();
+        Equipo mas = new Masajista();
+        xog.viajar();
     }
     
 }

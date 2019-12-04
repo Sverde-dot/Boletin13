@@ -30,12 +30,16 @@ public class Xogador extends Equipo {
     }
 
     public void jugarpartido(){
-        
+    System.out.println("Jugando el parido");    
     }
+    
     public void entrenar(){
-        
+        System.out.println("Entrenando");
     }
-
+    
+    public void viajar(){
+        System.out.println("viaxan os xogadores");
+    }
     @Override
     public String toString() {
         return super.toString()+ "Xogador{" + "dorsal=" + dorsal + ", demarcacion=" + demarcacion + '}';
